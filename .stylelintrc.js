@@ -1,3 +1,6 @@
 module.exports = {
-  extends: require.resolve('umi/stylelint'),
-}
+  plugins: ['stylelint-prettier'],
+  rules: {
+    'prettier/prettier': true,
+  },
+};
