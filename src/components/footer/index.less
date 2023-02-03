@@ -1,0 +1,34 @@
+.footerInside {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+
+  .footerLogo {
+    flex-grow: 1;
+  }
+
+  .footerNav {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-right: 100px;
+    }
+
+    .footerNavTitle {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 17px;
+      color: #454545;
+      margin-bottom: 24px;
+    }
+
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 17px;
+      color: #454545;
+      margin-bottom: 16px;
+    }
+  }
+}

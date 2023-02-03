@@ -16,6 +16,7 @@
     ]
   },
   "dependencies": {
+    "antd": "^5.1.7",
     "umi": "^4.0.47"
   },
   "devDependencies": {
@@ -24,6 +25,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@umijs/lint": "^4.0.47",
+    "@umijs/plugins": "^4.0.48",
     "eslint": "^8.33.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
